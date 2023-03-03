@@ -12,34 +12,30 @@
 </head>
 <body>
   <main class="container">
-    <div class="row">
-       <h1 class="login__title form-group">Login</h1>
-     <form class="form-group">
-      
-      <div class="row">
-       <div class="col-lg-12">
-            <input class="login__input form-control lg" type="email" placeholder="e-mail" />
-            <span class="login__input-border"></span>
-        </div>
-      </div>
+    <h1 class="login__title form-group">Login</h1>
+     <form class="form-control">
 
-      <div class="row">
-        <div class="col-lg-12">
-          <input class="login__input" type="password" placeholder="senha"/>
-        <span class="login__input-border"></span>
+        <div class="input-field">
+           <label>User</label>
+            <input type="email" name="username" id="username"  placeholder="Insira seu nome de usuario">
+         <div class ="underline"></div>
         </div>
-      </div>
 
-     </form>
-       <button class="login__submit">Login</button>
-       <div class="row">
-        <div class="col-lg-12">
-        <a class="login__reset" href="#">Esqueceu a senha?<span id="recup-senha">Recupere Agora!</span> </a>
-      </div>
+       <div class="input-field">
+            <label>Senha</label>
+            <input type="password" name="password" id="password" placeholder="Insira sua senha">
+         <div class="underline"></div>
        </div>
-      </div>
+        
+       
+       <input type="submit" class="submit" value="Entrar">
+      
+       <div class="senha-rec">
+          <a class="esquece-senha" style="text-decoration: none;" href="#">Esqueceu a Senha?<span class="recup-senha"> Recupere Agora!</span></a>
+       </div>
       </form>
-    </div>
   </main>
+</div>
+<img src="imagem-login.png" >
 </body>
 </html>

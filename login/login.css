@@ -18,17 +18,15 @@ body {
     align-items: center;
     justify-content: left;
     margin-left: 20%;
-    background: #919191;
 }
 
-img{
-    position:absolute;
-    width: 550px;
+img {
+    position: absolute;
+    width: 36%; /*550px*/
+    height: 90%;
     left: 55%;
     top: 15%;
-    
 }
-
 
 main.container {
     background: white;
@@ -39,6 +37,7 @@ main.container {
     border-radius: 8px;
     align-items: center;
     justify-content: center;
+
 
 }
 
